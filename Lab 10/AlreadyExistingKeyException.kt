@@ -1,0 +1,1 @@
+class AlreadyExistingKeyException(key: Int): Exception("La clave $key ya se encontraba en la tabla")
